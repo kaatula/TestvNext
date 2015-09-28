@@ -9,11 +9,12 @@ namespace NextApp
     {
         public void Main(string[] args)
         {
-            var color = Console.ForegroundColor;
+          
             Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.WriteLine("Hello, Linux world");
 
-            Console.ForegroundColor = color;
+            Console.ForegroundColor = ConsoleColor.Gray;
+
         }
     }
 }
